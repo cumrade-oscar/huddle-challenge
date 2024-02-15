@@ -1,0 +1,39 @@
+ body{
+    margin: 0;
+
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 30px;
+    margin: 20px 0;
+
+ }
+ span{
+    font-size: 40px;
+    font-weight: bolder;
+
+ }
+ .try-it{
+    border: 1px pink solid ;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 10px 20px;
+
+ }
+div.svg{
+    
+    
+ }
+main{
+    text-align: center;
+}
+main p{
+    padding: 0 300px;
+}
+.get-started{
+    border: none;
+    border-radius: 30px;
+    padding: 20px 50px;
+}

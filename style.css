@@ -1,5 +1,6 @@
  body{
     margin: 0;
+    font-family: Open Sans;
 
  }
  nav{
@@ -19,21 +20,254 @@
     border: 1px pink solid ;
     border-radius: 30px;
     background-color: transparent;
-    padding: 10px 20px;
+    padding: 0px 30px;
+    color:pink  ;
 
- }
-div.svg{
-    
-    
  }
 main{
     text-align: center;
 }
-main p{
-    padding: 0 300px;
-}
+
 .get-started{
     border: none;
     border-radius: 30px;
     padding: 20px 50px;
+    background-color: hsl(321, 100%, 78%);
+    margin-bottom: 20px;
+    color: white;
+}
+
+div.section{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   
+}
+.mockup{
+   text-align: center;
+}
+.mockup svg{
+   width: 964px;
+   height: 449px;
+}
+
+ 
+   
+a{
+   text-decoration: none;
+   color: inherit;
+} 
+
+.one{
+   font-size: 77px;
+}
+.two{
+   display: grid;
+   justify-content: center;
+   
+}
+.drawing svg{
+   width: 500px;
+   height: 500px;
+
+   
+}
+h1,h2,span{
+   font-family: Poppins;
+}
+h2{
+   font-size: 40px;
+   font-weight: 900;
+}
+.grow{
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+article{
+   background-image: url(huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-1.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+   display: flex;
+   justify-content: space-around;
+}
+.flowing{
+   display: flex;
+   justify-content: space-around;
+}
+.ready{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+h1{
+   margin-bottom: 20px;
+}
+footer{
+   color: white;
+   background-image: url(huddle-landing-page-with-curved-sections-master/images/bg-footer-top-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: 1024vw 1001vh;
+   background-position: center;
+   padding: 100px 100px 0;
+   
+}
+.first{
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+    ;
+}
+.attribution{
+   text-align: center;
+}
+li{
+   list-style: none;
+   
+}
+.logo{
+   display: flex;
+   gap: 20px;
+   padding-bottom: 50px
+}
+#email{
+   background-color: white;
+   border: 2px black solid ;
+   height: 32px;
+   border-radius: 10px;
+   
+}
+#submit{
+   background-color: hsl(322, 100%, 66%);
+   height: 40px;
+   padding: 0 20px 0;
+   width: 150px;
+   color: white;
+   border-radius: 10px;
+}
+.form{
+   display: flex;
+   gap: 10px;
+}
+.newsletter{
+   width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+   .mockup svg{
+      width: 300px;
+      height: 200px;
+   }
+   body{
+      margin: 0;
+   }
+   svg{
+      width: auto;
+      height: auto;
+   }
+   div.section{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+   }
+   article, .flowing{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+   .grow{
+      width: 95%;
+   }
+   .first{
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .drawing svg{
+      width: 323px;
+      height: 213px;
+   }
+   h2{
+      font-size: 30px;
+      font-weight: 900;
+   }
+   p{
+      font-size: 12px;
+      margin: 0 20px;
+   }
+   footer{
+   
+   background-image: url(huddle-landing-page-with-curved-sections-master/images/bg-footer-top-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: 10242vw 10021vh;
+   background-position: center;
+   padding: 25px 25px ;
+   
+   }
+   footer p{
+      margin: 0;
+   }
+   section div{
+      margin-bottom: 20px;
+
+   }
+   article{
+      background-image: url(huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-1.svg);
+      background-repeat: no-repeat;
+      background-size: 10242vw 10021vh;
+      background-position: center;
+      margin-bottom: 20px;
+   
+   }
+   nav{
+   display: flex;
+    justify-content: space-between;
+    
+    padding: 12px;
+    margin: 20px 0;
+
+
+   }
+   .try-it{
+      border: 1px pink solid ;
+      border-radius: 30px;
+      background-color: transparent;
+      padding: 5px 10px;
+      color:pink  ;
+  
+   }
+   .huddle{
+      font-size: 20px;
+   }
+    .svg svg{
+      width: 20px;
+    }
+    svg.svg{
+      width: 20px;
+      
+    }
+    .get-started{
+      margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1000px) {
+   .mockup svg{
+      width: 850pxpx;
+      height: 500px;
+   }
+   
 }
